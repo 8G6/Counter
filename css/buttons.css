@@ -1,32 +1,26 @@
 button{
-    background-color:rgb(14, 13, 14);
+    background-color:rgb(3, 4, 71);
     border-radius: 90%;
-    width: 50px;
-    height: 50px;
-    color: gold;
-    font-size: 13px;
     font-weight: bolder;
     cursor: pointer;
 }
-.res{
-    border-radius: 50%;
-    width: 70px;
-    position: fixed;
-    top:52%;
-    left: 48%;
-}
 .add{
-    font-size: 20px;
-    position: fixed;
-    top:50%;
-    left: 42%;
+ width: 100px;
+ height: 100px;
+ font-size: 58px;
+ color: white;
+ padding: 2% 2% 2% 2%;
+ margin: 60px 2px 2px 70px;
 }
-.sub{
-    font-size: 25px;
-    position: fixed;
-    top:50%;
-    left: 55%;
+.reset{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    color: white;
+    padding: 2% 2% 2% 2%;
+    margin: 250px 100px 60px 60px;
 }
 button:hover{
-    background-color: rgb(45, 46, 50);
+    background-color: rgb(13, 115, 138);
+    color: navajowhite;
 }

@@ -3,7 +3,9 @@
 @import "buttons.css";   
 
 body{
-    background-image: linear-gradient(to right,black,rgb(27, 24, 24));
+    
+    background: -webkit-linear-gradient(to left, #000428, #004e92);  
+    background: linear-gradient(to left, #000428, #004e92); 
 }
 
 .can{
@@ -13,29 +15,18 @@ body{
     height:480px;
     border-radius: 90%;
     box-shadow: 2px 2px 6px whitesmoke;
-}
-
-h1{
-    left: 40%;
-    color: rgb(8, 103, 180);
-    top: 60%;
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-    font-size: 41px;
-    background-color: rgb(3, 3, 3);
-    opacity: 0.9;
-    box-shadow: 2px 2px 1px rgb(51, 47, 47);
+    margin: 5% 30% 5% 30%;
+    border: rgb(15, 15, 15) solid 3px;
 }
 
 #screen{
     position: absolute;
-    top: 25%;
-    left: 15%;
-    width: 30%;
+    margin:1% 5% 40% 5%;
+    width: 21%;
     height:15%;
     background-color: green;
     font-family: 'Digital-7 Mono', sans-serif;
-    font-size:57px;
+    font-size:100px;
     color: rgba(226, 0, 11, 1);
     font-weight: bolder;
     text-align: right;
