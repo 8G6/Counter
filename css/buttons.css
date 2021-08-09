@@ -3,6 +3,8 @@ button{
     border-radius: 90%;
     font-weight: bolder;
     cursor: pointer;
+    border: royalblue solid 2px;
+    text-shadow: 1px 2px 2px whitesmoke;
 }
 .add{
  width: 100px;
@@ -19,8 +21,10 @@ button{
     color: white;
     padding: 2% 2% 2% 2%;
     margin: 250px 100px 60px 60px;
+    border: royalblue solid 1px;
 }
 button:hover{
-    background-color: rgb(13, 115, 138);
-    color: navajowhite;
+    background-color: rgb(14, 7, 85);
+    box-shadow: 2px 2px 2px rgb(206, 206, 197);
+    text-shadow: 2px 2px 2px rgb(2, 150, 36);
 }
