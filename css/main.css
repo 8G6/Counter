@@ -14,21 +14,21 @@ body{
     border-radius: 90%;
     box-shadow: 2px 2px 6px whitesmoke;
     margin: 5% 30% 5% 30%;
-    border: rgb(15, 15, 15) solid 4px;
+    border: rgb(211, 206, 206) solid 4px;
 }
 
 #screen{
     position: absolute;
     margin:1% 5% 40% 5%;
-    width: 21%;
-    height:15%;
+    width: 20%;
+    height:11%;
     background-color: rgb(49, 50, 85);
     font-family: 'Digital-7 Mono', sans-serif;
-    font-size:100px;
+    font-size:80px;
     color: rgba(226, 0, 11, 1);
     font-weight: bolder;
     text-align: right;
     box-shadow: 2px 3px 5px rgb(0, 0, 0);
-    
+    padding: 10px 10px 10px 10px;
 }
 
