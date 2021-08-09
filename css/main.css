@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+
+@import "buttons.css";   
+
+body{
+    background-image: linear-gradient(to right,black,rgb(27, 24, 24));
+}
+
+.can{
+    background: url("https://i.pinimg.com/originals/65/03/7d/65037dfbe963ce654c487895bf25bea9.jpg") no-repeat;
+    background-size:cover;
+    width: 480px;
+    height:480px;
+    border-radius: 90%;
+    box-shadow: 2px 2px 6px whitesmoke;
+}
+
+h1{
+    left: 40%;
+    color: rgb(8, 103, 180);
+    top: 60%;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    background-color: rgb(3, 3, 3);
+    opacity: 0.9;
+    box-shadow: 2px 2px 1px rgb(51, 47, 47);
+}
+
+#screen{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 30%;
+    height:15%;
+    background-color: green;
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-size:57px;
+    color: rgba(226, 0, 11, 1);
+    font-weight: bolder;
+    text-align: right;
+}
+
