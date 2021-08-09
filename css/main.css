@@ -3,8 +3,6 @@
 @import "buttons.css";   
 
 body{
-    
-    background: -webkit-linear-gradient(to left, #000428, #004e92);  
     background: linear-gradient(to left, #000428, #004e92); 
 }
 
