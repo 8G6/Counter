@@ -3,7 +3,6 @@ button{
     border-radius: 90%;
     font-weight: bolder;
     cursor: pointer;
-    border: royalblue solid 2px;
     text-shadow: 1px 2px 2px whitesmoke;
 }
 .add{
@@ -16,14 +15,13 @@ button{
     left: 42%;
 }
 .reset{
+    position:absolute;
     width: 50px;
     height: 50px;
     font-size: 10px;
     color: white;
-    margin: 150px 100px 60px 60px;
-    border: royalblue solid 1px;
-    top: 39%;
-    left:58%;
+    top: 41%;
+    left:50%;
 }
 button:hover{
     background-color: rgb(14, 7, 85);
