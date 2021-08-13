@@ -7,13 +7,20 @@ button{
     position:absolute;
     transform: translate(-50%,-50%);
 }
-.add{
-    width: 100px;
-    height: 100px;
-    font-size: 58px;
+.fun{
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
     color: white;
+}
+.add{
+    
     top: 70%;
-    left: 50%;
+    left: 25%;
+}
+.sub{
+    top: 70%;
+    left: 75%;
 }
 .reset{
     width: 50px;
@@ -21,7 +28,7 @@ button{
     font-size: 10px;
     color: white;
     top: 52%;
-    left:68%;
+    left:50%;
    
 }
 button:hover{
