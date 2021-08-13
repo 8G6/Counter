@@ -10,22 +10,23 @@ body{
     background: url("https://i.pinimg.com/originals/65/03/7d/65037dfbe963ce654c487895bf25bea9.jpg") no-repeat;
     background-size:cover;
     width: 26em;
-    height:26m;
+    height:26em;
     border-radius: 90%;
     box-shadow: 2px 2px 2px rgb(5, 11, 29);
     position: absolute;
+    transform: translate(-50%,-50%);
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
     border: rgb(211, 206, 206) solid 4px;
 }
 
 #screen{
     border: #03331bfb solid 5px;
-    position: absolute;
     margin:5% 5% 40% 5%;
-    width:19rem;
-    height:5rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:17rem;
+    height:4rem;
     top:25%;
     left:45%;
     transform: translate(-50%,-50%);
