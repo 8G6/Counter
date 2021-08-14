@@ -5,7 +5,10 @@
 body{
     background: linear-gradient(to left, #000428, #004e92); 
 }
-
+.align{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
 .can{
     background: url("https://i.pinimg.com/originals/65/03/7d/65037dfbe963ce654c487895bf25bea9.jpg") no-repeat;
     background-size:cover;
@@ -13,8 +16,6 @@ body{
     height:23em;
     border-radius: 90%;
     box-shadow: 2px 2px 2px rgb(5, 11, 29);
-    position: absolute;
-    transform: translate(-50%,-50%);
     top:50%;
     left:50%;
     border: rgb(211, 206, 206) solid 4px;
@@ -23,27 +24,23 @@ body{
 h1{
     text-align: center;
     color: aliceblue;
-    text-shadow: 3px 3px 3px rgb(128, 196, 128);
+    text-shadow: 1px 1px 1px rgb(128, 196, 128);
 }
 
 #screen{
     border: #03331bfb solid 5px;
-    margin:5% 5% 40% 5%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    width:16rem;
-    height:3rem;
-    top:27%;
-    left:45%;
+    width:70%;
+    height:10%;
+    top:30%;
+    left:50%;
     transform: translate(-50%,-50%);
     background-color: rgb(22, 24, 22);
     font-family: 'Digital-7 Mono', sans-serif;
-    font-size:60px;
-    color: rgba(226, 0, 11, 1);
-    font-weight: bolder;
+    font-size:3rem;
+    color: #ff000f;
     text-align: right;
     text-shadow: 1px 1px 1px rgb(44, 94, 59);
     box-shadow: 1px 1px 1px rgba(216, 218, 217, 0.918);
-    padding: 10px 10px 10px 10px;
+    padding: 3%;
 }
 

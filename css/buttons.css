@@ -14,7 +14,6 @@ button{
     color: white;
 }
 .add{
-    
     top: 70%;
     left: 25%;
 }
@@ -28,11 +27,12 @@ button{
     font-size: 10px;
     color: white;
     top: 52%;
-    left:50%;
-   
+    left:50%; 
 }
+
 button:hover{
-    background-color: rgb(14, 7, 85);
+    background-color: rgb(22, 11, 146);
     box-shadow: 2px 2px 2px rgb(206, 206, 197);
     text-shadow: 2px 2px 2px rgb(2, 150, 36);
 }
+.calss-name{color:blue;}
